@@ -1,0 +1,132 @@
+/* Body */
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-container > * {
+    width: 70%;
+}
+    /* Header */
+    .header-container .header {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+        .logo {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 16px;
+            list-style-type: none;  
+        }
+
+    /* Header Content */
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 100px;
+    }
+
+        .header-content > * {
+            flex: 1 1 400px;
+        }
+
+        .header-text {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            width: 40%;
+        }
+
+            .main-text {
+                font-size: 48px;
+                font-weight: extra-bold;
+            }
+
+            a,
+            .secondary-text {
+                text-decoration: none;
+                color: #E5E7EB;
+                font-size: 18px;
+            }
+
+            button {
+                background-color: #3882F6;
+                border: none;
+                color: #F9FAF8;
+                text-decoration: none;
+                cursor: pointer;
+                padding: 6px 20px;
+                font-weight: bold;
+                border-radius: 6px;
+            }
+
+        img {
+            background-color: gray;
+            width: 10%;
+        }
+
+/* First Section */
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+    .container-1 .title {
+        flex: 1;
+        font-size: 36px;
+        font-weight: extra-bold;
+        color: #1F2937;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+        .cards > * {
+            flex: 1 1 150px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+        }
+            .card .card-image {
+                height: 150px;
+                width: 150px;
+                border: 3px;
+                border-radius: 12px;
+                border-style: solid;
+                border-color: #3882F6;
+            }
+
+            .card .text {
+                text-align: center;
+                width: 150px;
+            }
