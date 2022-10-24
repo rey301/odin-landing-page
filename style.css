@@ -87,12 +87,12 @@ body {
             margin: auto;   
         }
 
-/* First Section */
-.container-1 {
+/* Second Section */
+.container-2 {
     margin: 50px;
 }
 
-    .container-1 .title {
+    .container-2 .title {
         text-align: center;
         font-size: 36px;
         font-weight: extra-bold;
@@ -134,8 +134,8 @@ body {
                 width: 150px;
             }
  
-/* Second Section */
-.container-2 {
+/* Third Section */
+.container-3 {
     display: flex;
     background-color: #E5E7EB;
 }
