@@ -75,7 +75,7 @@ body {
                 color: #F9FAF8;
                 text-decoration: none;
                 cursor: pointer;
-                padding: 6px 20px;
+                padding: 8px 28px;
                 font-weight: bold;
                 border-radius: 6px;
             }
@@ -161,3 +161,44 @@ body {
             align-self: end;
             font-weight: bold;
         }
+
+/* Fourth Section */
+.container-4 {
+    display: flex;
+    justify-content: center;
+}   
+    .signup-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #3882F6;
+        margin: 100px;
+        width: 58%;
+        padding: 50px 100px;
+        border-radius: 8px;
+        gap: 20px;
+    }
+
+        .signup-text {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            color: white;
+        }
+            .signup-text .header {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .signup-text .content {
+                color: #E5E7EB;
+            }
+
+        .signup-container button {
+            border-width: thick;
+            border: solid 2px white;
+            flex: 0 0 auto;
+        }
+
+    
