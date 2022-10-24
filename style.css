@@ -184,7 +184,7 @@ body {
             display: flex;
             flex-direction: column;
             gap: 4px;
-            color: white;
+            color: #F9FAF8;
         }
             .signup-text .header {
                 font-size: 18px;
@@ -197,8 +197,16 @@ body {
 
         .signup-container button {
             border-width: thick;
-            border: solid 2px white;
+            border: solid 2px #F9FAF8;
             flex: 0 0 auto;
         }
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+}
 
     
