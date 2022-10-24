@@ -43,8 +43,8 @@ body {
     .header-content {
         display: flex;
         justify-content: space-between;
-        flex: 0 0 200px;
         flex-wrap: wrap;
+        gap: 50px;
         padding: 100px;
     }
 
@@ -52,10 +52,9 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            flex: 1 0 400px;
+            gap: 20px;
+            flex: 1 1 100px;
             align-items: start;
-            gap: 8px;
-            width: 400px;
         }
 
             .main-text {
@@ -82,9 +81,9 @@ body {
             }
 
         .header-content img { 
-            flex: 0 1 400px;
-            background-color: gray;
-            width: 400px;
+            flex: 0 1 550px;
+            width: 300px;
+            background-color: gray; 
             margin: auto;   
         }
 
