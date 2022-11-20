@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+body > * {
+    border: 1px solid black;
+}
+
 button {
     background-color: #3882F6;
     border: none;
@@ -89,7 +93,7 @@ ul {
 
 /* Second Section */
 .container-2 {
-    margin: 50px;
+    padding: 50px;
 }
 
     .container-2 .title {
